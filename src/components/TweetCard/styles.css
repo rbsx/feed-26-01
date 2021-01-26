@@ -1,0 +1,19 @@
+.tweet-card {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  align-items: center;
+  grid-gap: 1rem;
+  padding: 0 2rem;
+  background-color: #ffc629;
+  margin-bottom: 1px;
+}
+
+.tweet-card img {
+  justify-self: center;
+  max-width: 100px;
+}
+
+.tweet-card__content {
+  background-color: #ffffff;
+  padding: 1rem;
+}
